@@ -8,21 +8,15 @@ const onMessage = require("./lib/events/onMessage");
 
 const config = {
     name: "lisa-bot",
-    prefix: "$",
     token: process.env.DISCORD_KEY,
-    adminIds: [
-        "128985967875850240"
-    ],
-    files: {
-        data: {
-            dir: "./data/",
-            storage: [
-                "lisa",
-                "tag_storage",
-                "tictactoe"
-            ]
-        }
+    prefix: "$",
+    adminIds: ["128985967875850240", "178470784984023040"],
+
+    dataPersisted: {
+        dir: "./data/",
+        files: ["lisa", "tag_storage", "tictactoe"]
     },
+
     options: {
         enableDefaultCommands: true,
         commandsAreCaseSensitive: true,
@@ -36,11 +30,12 @@ const config = {
         logLevel: "debug"
     }
 };
-
-const bot = new Dingy(config, commands, {}, {
+const events = {
     onInit,
     onConnect,
     onMessage
-});
+};
+
+const bot = new Dingy(config, commands, {}, events);
 
 bot.connect();
