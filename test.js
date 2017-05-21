@@ -7,14 +7,14 @@ const onConnect = require("./lib/events/onConnect");
 const onMessage = require("./lib/events/onMessage");
 
 const config = {
-    name: "lisa-bot",
-    token: process.env.DISCORD_KEY,
-    prefix: "$",
+    name: "lisa-test",
+    token: process.env.DISCORD_KEY_TEST,
+    prefix: "$$",
     adminIds: ["128985967875850240", "178470784984023040"],
 
     dataPersisted: {
         dir: "./data/",
-        files: ["lisa", "tag_storage", "tictactoe"]
+        files: ["lisa", "tag_storage", "tictactoe", "tetris"]
     },
 
     options: {
