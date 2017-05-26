@@ -9,6 +9,8 @@ This bot is named after the plant Lisa from the Video game "Life is Strange".
 
 It is a discord bot running on Node.js with Discord.js.
 
+To get started using Lisa, check `$help` for a list of commands.
+
 ## Usage
 
 If you want the bot to join your server,
@@ -16,11 +18,20 @@ go to <https://discordapp.com/oauth2/authorize?&client_id=269802184571486218&sco
 
 If you want to modify the bot, you should start by cloning this repo & installing the npm modules.
 
-## Setup
+### Setup
 
 After you cloned the repo, running `npm install` from your CLI should install all dependencies.
 
-Next, you should enter your configuration options into a file called `config.json` in the root directory.
-You can use the file `config.default.json` as a starting point
+Then, add your bot-key to the enviroment variables as `DISCORD_KEY` (you could use another name as long as you update the index.js)
 
 After you've done that, running `node index.js` will start the bot.
+
+### Content
+
+Lisa is split into modules:
+
+- core: Contains general commands like `help`, `about` or `invite` 
+- lisa: Lisa-minigame commands like `status`, `water` or `pet` 
+- fun: Miscellaneous commands for joke-commands 
+- tag: Use and create YNA tags, based on the popular discord-bot 42's tag system. Check `$help tag` for more help.
+- tictactoe: Lets you play TicTacToe in discord. Check `$help tictactoe` for more help.
