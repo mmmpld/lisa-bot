@@ -1,5 +1,30 @@
-# System Files
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+
+# OS or Editor folders
+._*
+.cache
 .DS_Store
+.idea
+.project
+.settings
+.tmproj
+.vscode
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+desktop.ini
 
 # Vendor Files
 node_modules/
@@ -9,5 +34,5 @@ bower_components/
 .tmp/
 npm-debug.*
 
-# Runtime Files
-data/*
+# Data Files
+data/

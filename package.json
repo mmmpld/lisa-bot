@@ -1,6 +1,6 @@
 {
     "name": "lisa-bot",
-    "version": "5.12.0",
+    "version": "5.13.0",
     "description": "A discord bot with miscellaneous features",
     "homepage": "https://github.com/FelixRilling/lisa-bot",
     "author": {
@@ -8,21 +8,24 @@
         "email": "contact@f-rilling.com",
         "url": " https://f-rilling.com"
     },
+    "scripts": {
+        "start": "node ./index.js",
+        "lint": "eslint index.js lib/",
+        "test": "node test.js"
+    },
     "main": "index.js",
     "keywords": [
         "discord",
         "bot",
         "lisa"
     ],
-    "scripts": {
-        "start": "node ./index.js",
-        "test": "node ./test.js"
-    },
-    "devDependencies": {},
     "repository": "https://github.com/FelixRilling/lisa-bot",
     "license": "MIT",
+    "devDependencies": {
+        "eslint": "^3.19.0"
+    },
     "dependencies": {
-        "di-ngy": "^3.4.2",
+        "di-ngy": "^3.7.0",
         "moment": "^2.18.1",
         "ynajs": "^3.5.6"
     },
