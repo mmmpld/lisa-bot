@@ -18,14 +18,16 @@ const config = {
     },
 
     options: {
-        enableDefaultCommands: true,
-        commandsAreCaseSensitive: true,
+        enableDefaultCommands: true, //If the builting "about", "help" and "eval" commands should be active
+        namesAreCaseSensitive: true, //cli-ngy:If false, "#botPrefix# hELp" will work too
+        allowQuotedStrings: true, //cli-ngy:If strings containing spaces should be kept together when enclosed in quotes.
+        validQuotes: ["\""], //cli-ngy:List of characters to support enclosing quotedStrings for.
 
-        answerToMissingCommand: false,
-        answerToMissingArgs: true,
-        answerToMissingPerms: false,
+        answerToMissingCommand: false, //If a message should be sent indicating that the command requested doesn't exist
+        answerToMissingArgs: true, //If a message should be sent indicating that arguments were missing
+        answerToMissingPerms: false, //If a message should be sent indicating that permissions were missing
 
-        sendFilesForLongReply: true,
+        sendFilesForLongReply: true, //If replies over 2000 chars should be sent as file instead
 
         logLevel: "debug"
     }
