@@ -22,7 +22,7 @@
     "repository": "https://github.com/FelixRilling/lisa-bot",
     "license": "MIT",
     "devDependencies": {
-        "eslint": "^3.19.0"
+        "eslint": "^4.0.0"
     },
     "dependencies": {
         "di-ngy": "^3.8.0",
