@@ -14,7 +14,7 @@ const config = {
 
     dataPersisted: {
         dir: "./data/",
-        files: ["lisa", "tag_storage", "tictactoe", "tetris"]
+        files: ["lisa", "tag_storage"]
     },
 
     options: {
