@@ -35,4 +35,5 @@ bower_components/
 npm-debug.*
 
 # Data Files
-data/
+data/*
+cache/*
