@@ -23,7 +23,6 @@ const config = {
             "pokemon_items",
             "pokemon_moves",
             "pokemon_pokedex",
-            "pokemon_statuses",
             "pokemon_typechart"
         ]
     },
