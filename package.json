@@ -28,7 +28,7 @@
     "dependencies": {
         "di-ngy": "^3.9.1",
         "moment": "^2.18.1",
-        "ynajs": "^3.7.5"
+        "ynajs": "^3.8.1"
     },
     "optionalDependencies": {
         "uws": "^8.14.0",

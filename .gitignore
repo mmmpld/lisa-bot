@@ -34,6 +34,5 @@ bower_components/
 .tmp/
 npm-debug.*
 
-# Data Files
 data/*.json
-cache/*/
+cache/**/*
