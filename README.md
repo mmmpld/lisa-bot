@@ -34,4 +34,15 @@ Lisa is split into modules:
 - lisa: Lisa-minigame commands like `status`, `water` or `pet` 
 - fun: Miscellaneous commands for joke-commands 
 - tag: Use and create YNA tags, based on the popular discord-bot 42's tag system. Check `$help tag` for more help.
-- tictactoe: Lets you play TicTacToe in discord. Check `$help tictactoe` for more help.
+- pokemon: pokemon related data lookups
+- users: searches/matches users
+- roles: role related commands
+- data: general data commands
+
+### Optional dependencies:
+
+Requiring node-gyp:
+```
+uws
+hammerandchisel/erlpack
+```
