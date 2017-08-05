@@ -14,7 +14,17 @@ const config = {
 
     dataPersisted: {
         dir: "./data/",
-        files: ["lisa", "tag_storage"]
+        files: [
+            "lisa",
+
+            "tag_storage",
+
+            "pokemon_abilities",
+            "pokemon_items",
+            "pokemon_moves",
+            "pokemon_pokedex",
+            "pokemon_typechart"
+        ]
     },
 
     options: {

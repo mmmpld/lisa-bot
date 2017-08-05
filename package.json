@@ -1,6 +1,6 @@
 {
     "name": "lisa-bot",
-    "version": "5.25.0",
+    "version": "5.26.0",
     "description": "A discord bot with miscellaneous features",
     "homepage": "https://github.com/FelixRilling/lisa-bot",
     "author": {
@@ -29,6 +29,7 @@
     "dependencies": {
         "di-ngy": "^3.10.0",
         "moment": "^2.18.1",
+        "yaml-js": "^0.2.0",
         "ynajs": "^3.8.1"
     },
     "optionalDependencies": {}
