@@ -30,7 +30,7 @@ const config = {
 
     options: {
         enableDefaultCommands: true, //If the builting "about", "help" and "eval" commands should be active
-        namesAreCaseSensitive: true, //cli-ngy:If false, "#botPrefix# hELp" will work too
+        namesAreCaseSensitive: false, //cli-ngy:If false, "#botPrefix# hELp" will work too
         allowQuotedStrings: true, //cli-ngy:If strings containing spaces should be kept together when enclosed in quotes.
         validQuotes: ["\""], //cli-ngy:List of characters to support enclosing quotedStrings for.
 
