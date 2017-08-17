@@ -29,7 +29,7 @@
     "dependencies": {
         "di-ngy": "^3.11.0",
         "moment": "^2.18.1",
-        "ynajs": "github:felixrilling/ynajs#dev-v4"
+        "ynajs": "^4.0.0"
     },
     "optionalDependencies": {}
 }
