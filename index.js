@@ -41,7 +41,7 @@ const config = {
 
         answerToMissingCommand: false, //If a message should be sent indicating that the command requested doesn't exist
         answerToMissingArgs: true, //If a message should be sent indicating that arguments were missing
-        answerToMissingPerms: false, //If a message should be sent indicating that permissions were missing
+        answerToMissingPerms: true, //If a message should be sent indicating that permissions were missing
 
         sendFilesForLongReply: true, //If replies over 2000 chars should be sent as file instead
 
