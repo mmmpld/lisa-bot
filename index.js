@@ -11,11 +11,7 @@ const config = {
     token: process.env.DISCORD_KEY,
     prefix: "$",
     adminIds: [
-        "128985967875850240", //Nobo
-        "178470784984023040", //Niklas
-        "236226432970391556", //Lilla
-        "80403171238748160", //Fraw
-        "78541183818674176", //Squas
+        "222957769131687936", //mmmpld
     ],
     dataPersisted: {
         dir: "./data/",
