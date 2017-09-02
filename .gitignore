@@ -36,3 +36,4 @@ npm-debug.*
 
 data/*.json
 cache/**/*
+.env
