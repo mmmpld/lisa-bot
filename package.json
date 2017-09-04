@@ -1,12 +1,12 @@
 {
-    "name": "lisa-bot",
+    "name": "plant-bot",
     "version": "5.31.0",
     "description": "A discord bot with miscellaneous features",
-    "homepage": "https://github.com/FelixRilling/lisa-bot",
+    "homepage": "https://github.com/mmmpld/lisa-bot",
     "author": {
-        "name": "Felix Rilling",
-        "email": "contact@f-rilling.com",
-        "url": " https://f-rilling.com"
+        "name": "Richard Molloy",
+        "email": "richardmolloy@gmail.com",
+        "url": " https://github.com/mmmpld"
     },
     "scripts": {
         "start": "node --harmony ./index.js",
@@ -18,9 +18,9 @@
     "keywords": [
         "discord",
         "bot",
-        "lisa"
+        "plant"
     ],
-    "repository": "https://github.com/FelixRilling/lisa-bot",
+    "repository": "https://github.com/mmmpld/lisa-bot",
     "license": "MIT",
     "devDependencies": {
         "eslint": "^4.4.1",

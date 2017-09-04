@@ -7,7 +7,7 @@ const onConnect = require("./lib/events/onConnect");
 const onMessage = require("./lib/events/onMessage");
 
 const config = {
-    name: "lisa-bot",
+    name: "plant-bot",
     token: process.env.DISCORD_KEY,
     prefix: "$",
     adminIds: [
@@ -16,7 +16,7 @@ const config = {
     dataPersisted: {
         dir: "./data/",
         files: [
-            "lisa",
+            "plant",
 
             "tag_storage",
 
