@@ -27,7 +27,7 @@
         "eslint-plugin-unicorn": "^2.1.2"
     },
     "dependencies": {
-        "di-ngy": "^3.12.3",
+        "di-ngy": "https://github.com/mmmpld/di-ngy",
         "moment": "^2.18.1",
         "ynajs": "^4.0.0"
     },

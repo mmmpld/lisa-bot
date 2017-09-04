@@ -41,7 +41,7 @@ const config = {
 
         sendFilesForLongReply: true, //If replies over 2000 chars should be sent as file instead
 
-        logLevel: "info" //Level of log messages recommended to be either "debug" or "info", but can be any supported log-level
+        logLevel: "debug" //Level of log messages recommended to be either "debug" or "info", but can be any supported log-level
     }
 };
 const events = {
