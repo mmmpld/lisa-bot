@@ -9,23 +9,14 @@ const onMessage = require("./lib/events/onMessage");
 const config = {
     name: "plant-bot",
     token: process.env.DISCORD_KEY,
-    prefix: "$",
+    prefix: "plant",
     adminIds: [
         "222957769131687936", //mmmpld
     ],
     dataPersisted: {
         dir: "./data/",
         files: [
-            "plant",
-
-            "tag_storage",
-
-            "pokemon_abilities",
-            "pokemon_items",
-            "pokemon_moves",
-            "pokemon_pokedex",
-            "pokemon_typechart",
-            "pokemon_format"
+            "plant"
         ]
     },
 
