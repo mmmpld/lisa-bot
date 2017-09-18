@@ -9,7 +9,7 @@ const onMessage = require("./lib/events/onMessage");
 const config = {
     name: "plant-bot",
     token: process.env.DISCORD_KEY,
-    prefix: "plant",
+    prefix: "p",
     adminIds: [
         "222957769131687936", //mmmpld
     ],
