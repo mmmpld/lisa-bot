@@ -29,7 +29,8 @@
     "dependencies": {
         "di-ngy": "https://github.com/mmmpld/di-ngy",
         "moment": "^2.18.1",
-        "ynajs": "^4.0.0"
+        "ynajs": "^4.0.0",
+        "moment-precise-range-plugin": "^1.3.0"
     },
     "optionalDependencies": {}
 }
