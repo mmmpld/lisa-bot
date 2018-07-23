@@ -1,36 +1,36 @@
 {
-    "name": "plant-bot",
-    "version": "5.31.0",
-    "description": "A discord bot with miscellaneous features",
-    "homepage": "https://github.com/mmmpld/lisa-bot",
-    "author": {
-        "name": "Richard Molloy",
-        "email": "richardmolloy@gmail.com",
-        "url": " https://github.com/mmmpld"
-    },
-    "scripts": {
-        "start": "node --harmony ./index.js",
-        "lint": "eslint index.js lib/",
-        "test": "node test.js",
-        "update-pokemon": "rm -rf ./cache/pokemon && git clone https://github.com/Zarel/Pokemon-Showdown/ ./cache/pokemon  && node lib/commands/pokemon/lib/convertData.js"
-    },
-    "main": "index.js",
-    "keywords": [
-        "discord",
-        "bot",
-        "plant"
-    ],
-    "repository": "https://github.com/mmmpld/lisa-bot",
-    "license": "MIT",
-    "devDependencies": {
-        "eslint": "^4.4.1",
-        "eslint-plugin-unicorn": "^2.1.2"
-    },
-    "dependencies": {
-        "di-ngy": "https://github.com/mmmpld/di-ngy",
-        "moment": "^2.18.1",
-        "ynajs": "^4.0.0",
-        "moment-precise-range-plugin": "^1.3.0"
-    },
-    "optionalDependencies": {}
+  "name": "plant-bot",
+  "version": "5.31.0",
+  "description": "A discord bot with miscellaneous features",
+  "homepage": "https://github.com/mmmpld/lisa-bot",
+  "author": {
+    "name": "Richard Molloy",
+    "email": "richardmolloy@gmail.com",
+    "url": "https://github.com/mmmpld"
+  },
+  "scripts": {
+    "start": "node --harmony ./index.js",
+    "lint": "eslint index.js lib/",
+    "test": "node test.js",
+    "update-pokemon": "rm -rf ./cache/pokemon && git clone https://github.com/Zarel/Pokemon-Showdown/ ./cache/pokemon  && node lib/commands/pokemon/lib/convertData.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "bot",
+    "plant"
+  ],
+  "repository": "https://github.com/mmmpld/lisa-bot",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-plugin-unicorn": "^2.1.2"
+  },
+  "dependencies": {
+    "di-ngy": "https://github.com/mmmpld/di-ngy",
+    "moment": "^2.18.1",
+    "moment-precise-range-plugin": "^1.3.0",
+    "ynajs": "^4.0.0"
+  },
+  "optionalDependencies": {}
 }
