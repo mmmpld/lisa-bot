@@ -1,6 +1,9 @@
 {
   "name": "plant-bot",
   "version": "5.31.0",
+  "engines": {
+    "node": "14.6.0"
+  },
   "description": "A discord bot with miscellaneous features",
   "homepage": "https://github.com/mmmpld/lisa-bot",
   "author": {
